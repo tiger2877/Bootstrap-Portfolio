@@ -3,7 +3,7 @@ body {
   font-size: 18px;
   line-height: 34px;
   color: #777777;
-  background: url("../images/leaves.png");
+  background: url("../images/concrete_seamless.png");
 }
 
 * {
@@ -50,20 +50,14 @@ h3 {
   font-size: 22px;
 }
 
-h4 {
-  font-size: 18px;
-  text-align: center;
-  color: black;
-  }
-
 /* header */
 
-#masterhead {
+#masthead {
   position: fixed;
   z-index: 99;
   width: 100%;
   margin: 0 0 30px;
-  overflow:hidden;
+  overflow: auto;
   color: #ffffff;
   background: #ffffff;
   border-bottom: 2px solid #cccccc;
@@ -102,26 +96,6 @@ nav a:first-child {
   border-left: 0 none;
 }
 
-/* unvisited link */
-a:link {
-  color: red;
-}
-
-/* visited link */
-a:visited {
-  color: green;
-}
-
-/* mouse over link */
-a:hover {
-  color: hotpink;
-}
-
-/* selected link */
-a:active {
-  color: blue;
-}
-
 /* footer */
 
 footer {
@@ -135,20 +109,6 @@ footer {
   border-top: 8px solid #4aaaa5;
   height: 50px;
 }
-
-/* sticky footer 
-   https://css-tricks.com/couple-takes-sticky-footer/ */
-
-   .wrapper {
-    height: 100%;
-    min-height: 100%;
-    margin: 0 auto -100px;
-  }
-  
-  footer,
-  .push {
-    height: 50px;
-  }
 
 h3, h2 {
   padding-bottom: 20px;
@@ -176,7 +136,7 @@ h3, h2 {
 
 /* portfolio page */
 
-.project {
+.work {
   position: relative;
   float: left;
   width: 274px;
@@ -184,37 +144,17 @@ h3, h2 {
   overflow: auto;
 }
 
-.project:nth-child(even) {
+.work:nth-child(even) {
   margin-right: 40px;
 }
 
-.project img {
+.work img {
   width: 100%;
   border: 0 none;
   opacity: 0.8;
 }
 
-.image {
-  float: left;
-  width: 300px;
-  height: auto;
-  margin-top: 10px;
-  margin-right: 25px;
-}
-
-img:hover {
-  box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
-}
-
-.auth-image {
-  float: left;
-  width: 200px;
-  height: auto;
-  margin-top: 10px;
-  margin-right: 25px;
-}
-
-.project h3 {
+.work h3 {
   position: absolute;
   bottom: 20px;
   width: 100%;
@@ -228,11 +168,13 @@ img:hover {
   border-bottom: 0;
 }
 
-.project h3:hover {
-  cursor: pointer;
-  opacity: 0.5;
-  background: hotpink;
-  }
+.auth-image {
+  float: left;
+  width: 200px;
+  height: auto;
+  margin-top: 10px;
+  margin-right: 25px;
+}
 
 /* contact page */
 
