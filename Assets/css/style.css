@@ -152,10 +152,10 @@ footer {
     margin: 0 auto -100px;
   }
   
-  footer,
-  .push {
-    height: 50px;
-  }
+ footer,
+.push {
+  height: 105px;
+}
 
 /* sidebar */
 
