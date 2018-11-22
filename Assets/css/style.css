@@ -151,6 +151,18 @@ footer {
     height: 50px;
   }
 
+/* sidebar */
+
+#sidebar {
+  float: right;
+  width: 100%;
+  max-width: 270px;
+  padding: 30px;
+  margin-bottom: 20px;
+  background: #fff;
+  border: 1px solid #ddd;
+}
+
 h3, h2 {
   padding-bottom: 20px;
   margin-bottom: 15px;
