@@ -8,18 +8,18 @@
   <title>About | Pryambudhi Cahyadi</title>
 
   <!-- We need to bring in the bootstrap CSS -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
   <link rel="stylesheet" type="text/css" href="Assets/css/style.css">
 </head>
 
 <body>
     <header id="masthead">
-        
-          <nav class="navbar navbar-expand-md bg-light fixed-top " style="background-color:#4aaaa5;">
-          <a class="nav-link" href="index.html" id="logo">Budhi Cahyadi</a>
-            <ul class="nav navbar-nav navbar-right">
+        <div class="container">
+            <a href="index.html" id="logo">Budhi Cahyadi</a>
+          <nav class="navbar navbar-expand-sm bg-light fixed-top " style="background-color:#4aaaa5;">
+           <ul class="navbar-nav">
               <li class="nav-item">
-                <a class="nav-link" href="index.html">About<span class="sr-only">(current)</span></a>
+                <a class="nav-link" href="index.html">About</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="portfolio.html">Portfolio</a>
@@ -28,28 +28,27 @@
                 <a class="nav-link" href="contact.html">Contact</a>
               </li>
             </ul>
-          </div>
           </nav>
       </header>
     
       <!-- Content here -->
       <div class="wrapper"> 
           <div id="main-container" class="container">
- 
+            
+            <section class="main-section">
+
       <!-- Main Body goes in Container -->
       <section class="main-section">
-
-        <!--First row -->
         <div class="row">
-          <div class="col-md-8">
+          <div class="col-sm-8">
             <div class="page-header">
               <h1>About Me</h1>
             </div>
             <div class="row">
-              <div class="col-md-3">
-                  <img src="http://placehold.it/150x150" class="thumbnail" id="auth-image"  alt="Pryambudhi Cahyadi">
+              <div class="col-sm-3">
+                   <img src="Assets/images/me.jpg" class="auth-image" alt="Pryambudhi Cahyadi">
               </div>   
-              <div class="col-md-9">
+              <div class="col-sm-9">
                   <div class="caption">
                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae cumque corporis quis sed, quod pariatur! Officia aut tempore
                     repellendus, culpa inventore magnam accusamus nemo fugiat debitis voluptates ratione omnis, nobis.</p>
@@ -57,26 +56,24 @@
               </div>
             </div>
           </div>
-         <!--Second row --> 
-         <div class="col-md-4">
+          <div class="col-sm-4">
             <!-- The content in this div gets wrapped in a card -->
               <div class="card">
                 <div class="card-body">
                 Awesome Stories
                 </div>
               </div>
-          </div>
-        </div>
-    </section>
-  </div>
-</div>
-
-  <!-- Footer -->
-  <footer>
-      <div class="container">
-        © 2018 Pryambudhi Cahyadi
+            </div>
       </div>
-    </footer>
+
+    </section>
+
+      <footer>
+          <div class="container">
+            © 2018 Pryambudhi Cahyadi
+          </div>
+        </footer>
+        </div>
 </body>
 
 </html>
