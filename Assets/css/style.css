@@ -61,7 +61,7 @@ h4 {
 #masterhead {
   position: fixed;
   z-index: 99;
-  width: 100%;
+  max-width: 100%;
   margin: 0 0 30px;
   overflow:hidden;
   color: #ffffff;
@@ -88,17 +88,18 @@ h4 {
   margin-top: 25px;
 }
 
-nav a {
+#navlink {
   display: inline-block;
   padding-left: 15px;
   margin-left: 15px;
+  margin-top: 25px;
   line-height: 18px;
   color: #999;
   text-decoration: none;
   border-left: 1px solid #efefef;
 }
 
-nav a:first-child {
+#navlink1 {
   border-left: 0 none;
 }
 
